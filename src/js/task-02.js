@@ -19,7 +19,7 @@ function createIngredientsEl() {
   });
   return ingredientsEl.append(...ingredientsList); 
 }
-createIngredientsEl()
+createIngredientsEl();
 
 
 

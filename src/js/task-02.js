@@ -7,7 +7,6 @@ const ingredients = [
   'Condiments',
 ];
 
-
 const ingredientsEl = document.querySelector('#ingredients');
 console.log(ingredientsEl);
 function createIngredientsEl() {
@@ -20,19 +19,3 @@ function createIngredientsEl() {
   return ingredientsEl.append(...ingredientsList); 
 }
 createIngredientsEl();
-
-
-
-// const dish = document.querySelector('#ingredients')
-
-// const liArr = []
-
-// ingredients.forEach(el => {
-// 	const list = document.createElement('li')
-// 	list.className = 'item'
-// 	list.textContent = el
-// 	liArr.push(list)
-// })
-
-// dish.append(...liArr)
-// console.log(dish);
